@@ -1,0 +1,21 @@
+# Python virtual environment
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# JavaScript dependencies
+frontend/node_modules/
+
+# Environment/secrets
+.env
+*.env
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
