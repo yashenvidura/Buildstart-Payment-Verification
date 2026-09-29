@@ -1,21 +1,67 @@
-# Python virtual environment
+# ================================
+# Python
+# ================================
+
+# Virtual environment
 backend/.venv/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# JavaScript dependencies
+# Python test/cache files
+.pytest_cache/
+
+
+# ================================
+# Database
+# ================================
+
+# Generated local SQLite database
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+
+# ================================
+# JavaScript / Vite
+# ================================
+
+# Dependencies
 frontend/node_modules/
 
-# Environment/secrets
+# Production build
+frontend/dist/
+
+
+# ================================
+# Local test receipt images
+# ================================
+
+# Keep private/sample bank receipts off GitHub
+backend/test_images/
+
+
+# ================================
+# Environment / secrets
+# ================================
+
 .env
 *.env
 
-# IDE / OS files
+
+# ================================
+# IDE / Operating System
+# ================================
+
 .vscode/
 .DS_Store
 Thumbs.db
 
+
+# ================================
 # Logs
+# ================================
+
 *.log
